@@ -69,10 +69,10 @@ public class Assignment3_userLogIn {
 			}
 
 		}
-		if(d==5) {
+		if (d == 5 && checkTrueOrFalse == false) {
 			System.out.println("Too many failed login attempts, you are now locked out.");
 		}
-		
+
 	}
 
 }
